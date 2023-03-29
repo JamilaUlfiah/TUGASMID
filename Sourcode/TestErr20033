@@ -1,0 +1,16 @@
+/*Nama : Jamila Ulfiah*/
+/*NIM  : 13020210033*/
+
+import java.util.Scanner;
+
+public class TestErr0033 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int i = input.nextInt();
+        double k = 100.0;
+        char c = 's';
+        boolean falseValue = false;
+        int j = i + 1;
+        System.out.println("j adalah " + j + ", k adalah " + k + ", dan c adalah " + c + ", dan falseValue adalah " + falseValue);
+    }
+}
